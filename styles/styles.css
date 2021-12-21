@@ -1,4 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap");
+.columna-archivo {
+  font-size: calc(0.75em + 1vmin);
+  font-family: "trueno";
+  padding-top: 1%;
+  padding-left: 24%; }
+
+.caja-columna {
+  padding: 1%; }
+
+@media (max-width: 600px) {
+  .columna-archivo {
+    padding-top: 21%;
+    padding-left: 25%; } }
 .container {
   height: 100vh;
   display: grid;
@@ -369,26 +382,270 @@
   -webkit-background-size: cover;
   -moz-background-size: cover; }
 
+.aplo16 {
+  background: url(fondos/001.jpg) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover; }
+
+.aplo17 {
+  background: url(fondos/002.jpg) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover; }
+
+.aplo18 {
+  background: url(fondos/003.jpg) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover; }
+
+.aplo19 {
+  background: url(fondos/004.jpg) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover; }
+
+.aplo20 {
+  background: url(fondos/005.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover; }
+
+.aplo21 {
+  background: url(fondos/006.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover; }
+
+.aplo22 {
+  background: url(fondos/007.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover; }
+
+.aplo23 {
+  background: url(fondos/008.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover; }
+
+.aplo24 {
+  background: url(fondos/009.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover; }
+
+.aplo25 {
+  background: url(fondos/010.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover; }
+
+.aplo28 {
+  background: url(fondos/011.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover; }
+
+.aplo29 {
+  background: url(fondos/012.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover; }
+
+.aplo30 {
+  background: url(fondos/013.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover; }
+
+.aplo31 {
+  background: url(fondos/014.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover; }
+
+.aplo32 {
+  background: url(fondos/015.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover; }
+
+.aplo33 {
+  background: url(fondos/016.jpg) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover; }
+
+.aplo34 {
+  background: url(fondos/017.jpg) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover; }
+
+.aplo35 {
+  background: url(fondos/018.jpg) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover; }
+
+.aplo36 {
+  background: url(fondos/019.jpg) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover; }
+
+.aplo37 {
+  background: url(fondos/020.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover; }
+
+.aplo38 {
+  background: url(fondos/021.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover; }
+
+.aplo39 {
+  background: url(fondos/022.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover; }
+
+.aplo40 {
+  background: url(fondos/023.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover; }
+
+.aplo41 {
+  background: url(fondos/024.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover; }
+
+.aplo42 {
+  background: url(fondos/025.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover; }
+
+.aplo43 {
+  background: url(fondos/026.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover; }
+
+.aplo44 {
+  background: url(fondos/027.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover; }
+
+.aplo45 {
+  background: url(fondos/028.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover; }
+
+.aplo46 {
+  background: url(fondos/029.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover; }
+
+.aplo47 {
+  background: url(fondos/030.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover; }
+
 @font-face {
   font-family: 'trueno';
   src: url("./typos/TruenoRg.otf") format("opentype"); }
+.text-color {
+  background-color: #376c7b;
+  color: aliceblue;
+  background-color: #a7ccd4;
+  color: aliceblue;
+  background-color: #2b440e;
+  color: aliceblue;
+  background-color: #c6af7b;
+  color: aliceblue;
+  background-color: #8e966d;
+  color: aliceblue;
+  background-color: #ffec18;
+  color: coral; }
+
 .menu1 {
   font-size: 88px;
   font-family: 'Shippori Antique', sans-serif; }
 
-a {
-  color: whitesmoke; }
+@media (max-width: 600px) {
+  .menu1 {
+    font-size: 60px; } }
+.a-black {
+  color: rgba(0, 0, 0, 0.701); }
 
-a:link {
+.a-black:link {
   text-decoration: none; }
 
-a:visited {
+.a-black:visited {
   text-decoration: none; }
 
-a:hover {
+.a-black:hover {
+  color: blue;
   text-decoration: none; }
 
-a:active {
+.a-black:active {
+  text-decoration: none; }
+
+.a-white {
+  color: rgba(0, 0, 0, 0.701); }
+
+.a-white:link {
+  text-decoration: none; }
+
+.a-white:visited {
+  text-decoration: none; }
+
+.a-white:hover {
+  color: blue;
+  text-decoration: none; }
+
+.a-white:active {
   text-decoration: none; }
 
 .menu-a {
@@ -410,6 +667,7 @@ a:active {
   /* no underline */ }
   .menu-aarchivo:after {
     content: 'RCHIVO';
+    color: rgba(0, 0, 0, 0.701);
     writing-mode: vertical-rl;
     text-orientation: upright;
     position: absolute;
@@ -417,6 +675,14 @@ a:active {
     top: 80px;
     left: -15px; }
 
+@media (max-width: 600px) {
+  .menu-aarchivo:after {
+    content: 'RCHIVO';
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    position: absolute;
+    top: 55px;
+    left: -10px; } }
 .menu-p {
   position: fixed;
   top: 17px;
@@ -439,12 +705,15 @@ a:active {
   right: 24px;
   z-index: 99999;
   text-decoration: none;
-  /* no underline */ }
+  /* no underline */
+  color: rgba(0, 0, 0, 0.701);
+  animation: rotacion-0 5s linear 2s infinite alternate; }
 
-video {
-  width: 100%;
-  margin: 0 0 0 0; }
-
+@keyframes rotacion-0 {
+  from {
+    transform: rotateY(0deg); }
+  to {
+    transform: rotateY(360deg); } }
 .menu {
   background: rgba(255, 255, 255, 0.85);
   height: 100%;

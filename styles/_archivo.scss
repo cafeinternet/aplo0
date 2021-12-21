@@ -1,0 +1,27 @@
+.columna-archivo{
+    
+    font-size: calc(0.75em + 1vmin);
+    font-family: "trueno";
+    padding-top: 1%;
+    padding-left: 24%;
+ 
+
+    
+}
+
+.caja-columna{
+    padding: 1%;
+}
+
+@media (max-width: 600px){
+
+   
+        .columna-archivo {
+            padding-top: 21%;
+    padding-left: 25%;
+        }
+     
+    
+        
+   
+}

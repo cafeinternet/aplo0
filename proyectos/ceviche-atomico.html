@@ -1,411 +1,405 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>A P L O</title>
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-  
-  <link href='https://fonts.googleapis.com/css?family=Slabo+13px' rel='stylesheet' type='text/css'><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
-  <link rel="stylesheet" href="../styles/styles.css">
-  <link rel="stylesheet" href="styles/grid.css">
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-   <style>
-#atomic1 {
-  position:absolute;
-  width: 35%;
-  left: 23%;
-  }
+    <meta name="viewport" content="width=device-width" />
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link rel="shortcut icon" href="../styles/logo.png" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Slabo+13px"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <link rel="stylesheet" href="styles/grid.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      #atomic1 {
+        position: absolute;
+        width: 35%;
+        left: 23%;
+      }
 
-  #atomic2 {
-   display: none;
-    position: absolute;
-    width: 42%;
-    top: 11%;
-    left: 43%;
-  }
+      #atomic2 {
+        display: none;
+        position: absolute;
+        width: 42%;
+        top: 11%;
+        left: 43%;
+      }
 
-  #atomic3 {
-    display: none;
-    position: absolute;
-    width: 43%;
-    top: 33%;
-    left: 17%;
-  }
+      #atomic3 {
+        display: none;
+        position: absolute;
+        width: 43%;
+        top: 33%;
+        left: 17%;
+      }
 
-  #atomic4 {
-    display: none;
-    position: absolute;
-    width: 43%;
-    top: 30%;
-    left: 37%;
-  }
-  #atomic5 {
-    display: none;
-    position: absolute;
-    width: 43%;
-    top: 32%;
-    left: 8%;
-  }
-  #atomic6 {
-   display: none;
-    position: absolute;
-    width: 31%;
-    top: 5%;
-    left: 49%
-  }   
-  #atomic7{
-    display: none;
-    position: absolute;
-    width: 43%;
-    top: 22%;
-    left: 39%;
-  }
-  #atomic8{
-    display: none;
-    position: absolute;
-    width: 43%;
-    top: 22%;
-    left: 39%;
-  }
+      #atomic4 {
+        display: none;
+        position: absolute;
+        width: 43%;
+        top: 30%;
+        left: 37%;
+      }
+      #atomic5 {
+        display: none;
+        position: absolute;
+        width: 43%;
+        top: 32%;
+        left: 8%;
+      }
+      #atomic6 {
+        display: none;
+        position: absolute;
+        width: 31%;
+        top: 5%;
+        left: 49%;
+      }
+      #atomic7 {
+        display: none;
+        position: absolute;
+        width: 43%;
+        top: 22%;
+        left: 39%;
+      }
+      #atomic8 {
+        display: none;
+        position: absolute;
+        width: 43%;
+        top: 22%;
+        left: 39%;
+      }
 
-  #atomic9{
-    display: none;
-    position: absolute;
-    width: 32%;
-    top: 4%;
-    left: 29%;
-  }
-  #atomic13{
-    display: none;
-    position: absolute;
-    width: 30%;
-    top: 5%;
-    left: 14%;
-  }
-  #atomic10{
-    display: none;
-    position: absolute;
-    width: 51%;
-    top: 5%;
-    left: 29%;
-  }
-  #atomic12{
-    display: none;
-    position: absolute;
-    width: 51%;
-    top: 26%;
-    left: 18%;
-  }
+      #atomic9 {
+        display: none;
+        position: absolute;
+        width: 32%;
+        top: 4%;
+        left: 29%;
+      }
+      #atomic13 {
+        display: none;
+        position: absolute;
+        width: 30%;
+        top: 5%;
+        left: 14%;
+      }
+      #atomic10 {
+        display: none;
+        position: absolute;
+        width: 51%;
+        top: 5%;
+        left: 29%;
+      }
+      #atomic12 {
+        display: none;
+        position: absolute;
+        width: 51%;
+        top: 26%;
+        left: 18%;
+      }
 
+      #atomic14 {
+        display: none;
+        position: absolute;
+        width: 30%;
+        top: 5%;
+        left: 14%;
+      }
 
-  #atomic14{
-    display: none;
-    position: absolute;
-    width: 30%;
-    top: 5%;
-    left: 14%;
-  }
+      #atomic15 {
+        display: none;
+        position: absolute;
+        width: 30%;
+        top: -5%;
+        left: 14%;
+      }
 
-  #atomic15{
-    display: none;
-    position: absolute;
-    width: 30%;
-    top: -5%;
-    left: 14%;
-  }
+      #atomic-p1 {
+        display: none;
+        background-color: #ffec18;
+        font-size: calc(0.75em + 1vmin);
+        font-family: "trueno";
+        position: absolute;
+        width: 43%;
+        top: 22%;
+        left: 39%;
+        padding: 2%;
+        color: coral;
+      }
 
-  #atomic-p1 {
-    display: none;
-    background-color: aquamarine;
-    font-size: calc(0.75em + 1vmin);
-    font-family: 'trueno';
-    position: absolute;
-    width: 43%;
-    top: 22%;
-    left: 39%;
-padding: 2%;
-text-align: justify;
-  text-justify: inter-word;
+      #atomic-p2 {
+        display: none;
+        background-color: #c6af7b;
+        font-size: calc(0.75em + 1vmin);
+        font-family: "trueno";
+        position: absolute;
 
-  }
+        padding: 2%;
+        color: aliceblue;
+        width: 43%;
 
-  #atomic-p2 {
-    display: none;
-    background-color: aquamarine;
-    font-size: calc(0.75em + 1vmin);
-    font-family: 'trueno';
-    position: absolute;
-   
-padding: 2%;
-text-align: justify;
-  text-justify: inter-word;
-  width: 43%;
+        top: 44%;
+        left: 40%;
+      }
+      #atomic-p3 {
+        display: none;
+        background-color: #a7ccd4;
+        font-size: calc(0.75em + 1vmin);
+        font-family: "trueno";
+        position: absolute;
+        color: aliceblue;
+        padding: 2%;
 
-    top: 44%;
-    left: 40%;
-   
+        width: 43%;
 
-  }
-  #atomic-p3 {      display: none;
-    background-color: aquamarine;
-    font-size: calc(0.75em + 1vmin);
-    font-family: 'trueno';
-    position: absolute;
-   
-padding: 2%;
-text-align: justify;
-  text-justify: inter-word;
-  width: 43%;
+        top: 63%;
+        left: 40%;
+      }
 
-    
-    top: 63%;
-    left: 40%;
+      @media (max-width: 600px) {
+        #atomic1 {
+          width: 62%;
+          left: 15%;
+          top: 22%;
+        }
+        #atomic7 {
+          width: 87%;
+          top: 22%;
+          left: 8%;
+        }
+        #atomic13 {
+          width: 60%;
+          top: 34%;
+          left: 31%;
+        }
 
-  }
+        #atomic2 {
+          width: 77%;
+          top: 23%;
+          left: 5%;
+        }
 
-  
-  @media (max-width: 600px) {
-    #atomic1{
-  width: 62%;
-    left: 15%;
-    top: 22%;
- }
- #atomic7 {
-  width: 87%;
-    top: 22%;
-    left: 8%
-}
-#atomic13{
-  width: 60%;
-    top: 34%;
-    left: 31%;
-}
+        #atomic15 {
+          width: 78%;
+          top: 9%;
+          left: 12%;
+        }
 
-#atomic2{
-  width: 77%;
-    top: 23%;
-    left: 5%;
-}
+        #atomic-p1 {
+          font-size: 4vw;
+          width: 71%;
+          top: 35%;
+          left: 11%;
+        }
 
+        #atomic3 {
+          width: 89%;
+          top: 42%;
+          left: 5%;
+        }
+        #atomic14 {
+          width: 72%;
+          top: 20%;
+          left: 14%;
+        }
+        #atomic4 {
+          width: 80%;
+          top: 40%;
+          left: 4%;
+        }
+        #atomic-p2 {
+          width: 70%;
+          top: 31%;
+          left: 7%;
+        }
+        #atomic10 {
+          width: 88%;
+          top: 38%;
+          left: 8%;
+        }
+        #atomic5 {
+          width: 82%;
+          top: 17%;
+          left: 13%;
+        }
+        #atomic6 {
+          width: 76%;
+          top: 21%;
+          left: 11%;
+        }
+        #atomic8 {
+          width: 73%;
+          top: 36%;
+          left: 13%;
+        }
+        #atomic12 {
+          width: 79%;
+          top: 28%;
+          left: 8%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="menu1">
+      <div class="menu-a"><a class="a-black" href="../archivo.html">A</a></div>
+      <div class="menu-p"><a class="a-black" href="../personas.html">P</a></div>
+      <div class="menu-l"><a class="a-black" href="../links.html">L</a></div>
+      <div id="shuffle" class="menu-o a-black">
+        <a class="a-black" href="../index.html"> O </a>
+      </div>
+    </div>
 
-#atomic15{
-  width: 78%;
-    top: 9%;
-    left: 12%;
-}
-
-#atomic-p1{
-  font-size: 4vw;
-  width: 71%;
-    top: 35%;
-    left: 11%;
-}
-
-#atomic3{
-  width: 89%;
-    top: 42%;
-    left: 5%;
-}
-#atomic14{
-  width: 72%;
-    top: 20%;
-    left: 14%;
-}
-#atomic4{
-  width: 80%;
-    top: 40%;
-    left: 4%;
-}
-#atomic-p2{
-  width: 70%;
-    top: 31%;
-    left: 7%;
-}
-#atomic10{
-  width: 88%;
-    top: 38%;
-    left: 8%;
-}
-#atomic5{
-  width: 82%;
-    top: 17%;
-    left: 13%;
-}
-#atomic6{
-  width: 76%;
-    top: 21%;
-    left: 11%;
-}
-#atomic8{
-  width: 73%;
-    top: 36%;
-    left: 13%;
-}
-#atomic12{
-  width: 79%;
-    top: 28%;
-    left: 8%;
-}
-  }
-   </style>
-</head>
-<body>
- 
-  <div class="menu1">
-    <div class="menu-a"><a href="./a.html">A</a></div>
-    <div class="menu-p"> <a href="./p.html">P</a></div>
-    <div class="menu-l"> <a href="./l.html">L</a></div>
-    <div id="shuffle" class="menu-o">O </div>
-</div> 
-
-
-    <img  id="atomic1" src="ceviche-atomico/est-1.jpg" alt=""> 
-    <img id="atomic7" src="ceviche-atomico/pl2.jpg" alt="">   
-    <img id="atomic13" src="ceviche-atomico/rec-1.jpg" alt="">
-    <img id="atomic2" src="ceviche-atomico/est-2.jpg" alt="">  
-    <p id="atomic-p1">Ceviche Atómico <br> <br>
-      Atómico Dotación / Laboratorio Gastronómico 2021 <br> <br>
-      Un pequeño laboratorio gastronómico ubicado en la Plaza de Mercado de la Perseverancia en Bogotá y dedicado a la cocina experimental con ingredientes del pacifico colombiano. El proyecto se asume como una intervención y restauración sobre un inmueble de carácter patrimonial, a la vez, que propone una contradicción con las lógicas de funcionamiento y ocupación presentes.
-     </p>
-    <img id="atomic15" src="ceviche-atomico/vc-mobiliario-vf.jpg "alt="">
-    <img id="atomic3" src="ceviche-atomico/est-3.jpg" alt="">
-    <img id="atomic14" src="ceviche-atomico/rec-2.jpg" alt="">
-    <img id="atomic4" src="ceviche-atomico/int-1.jpg" alt="">
-    <p id="atomic-p2"> Por medio de un diálogo multiescalar entre los imaginarios y memorias del paisaje y gastronomía de Chocó, el proyecto se enfoca en el diseño de un mobiliario itinerante que incluye mesas y taburetes útiles para la preparación y el consumo de alimentos. Simultáneamente, los interiores del espacio se alteran ligeramente a partir de un trabajo cromático y lumínico sobre las superficies. Mientras que el almacenamiento, limpieza, y preparación más robusta se organizan en una crujía sencilla para ganar aire y abrir posibilidades de redistribución.
+    <img id="atomic1" src="ceviche-atomico/est-1.jpg" alt="" />
+    <p id="atomic-p1">
+      Ceviche Atómico <br />
+      <br />
+      Atómico Dotación / Laboratorio Gastronómico 2021 <br />
+      <br />
+      Un pequeño laboratorio gastronómico ubicado en la Plaza de Mercado de la
+      Perseverancia en Bogotá y dedicado a la cocina experimental con
+      ingredientes del pacifico colombiano. El proyecto se asume como una
+      intervención y restauración sobre un inmueble de carácter patrimonial, a
+      la vez, que propone una contradicción con las lógicas de funcionamiento y
+      ocupación presentes.
     </p>
-    <img id="atomic10" src="ceviche-atomico/planta-viches-restaurante.jpg" alt="">
-    <img id="atomic5" src="ceviche-atomico/int-2.jpg" alt="">
-    <img id="atomic6" src="ceviche-atomico/mesas-redondas.jpg" alt="">
-      <img id="atomic8" src="ceviche-atomico/pl1.jpg" alt="">
-    <img id="atomic9" src="ceviche-atomico/pl3.jpg" alt="">   
-    <img id="atomic12" src="ceviche-atomico/planta-viches-taller.jpg" alt="">
-    <p id="atomic-p3">Equipo: Miguel Ángel Abadía, ANGEL A  ANGELE, Pedro Aparicio, Daniel Blanco.
+    <img id="atomic7" src="ceviche-atomico/pl2.jpg" alt="" />
+    <img id="atomic13" src="ceviche-atomico/rec-1.jpg" alt="" />
+    <img id="atomic2" src="ceviche-atomico/est-2.jpg" alt="" />
+
+    <img id="atomic15" src="ceviche-atomico/vc-mobiliario-vf.jpg " alt="" />
+    <img id="atomic3" src="ceviche-atomico/est-3.jpg" alt="" />
+    <img id="atomic14" src="ceviche-atomico/rec-2.jpg" alt="" />
+    <img id="atomic4" src="ceviche-atomico/int-1.jpg" alt="" />
+    <p id="atomic-p2">
+      Por medio de un diálogo multiescalar entre los imaginarios y memorias del
+      paisaje y gastronomía de Chocó, el proyecto se enfoca en el diseño de un
+      mobiliario itinerante que incluye mesas y taburetes útiles para la
+      preparación y el consumo de alimentos. Simultáneamente, los interiores del
+      espacio se alteran ligeramente a partir de un trabajo cromático y lumínico
+      sobre las superficies. Mientras que el almacenamiento, limpieza, y
+      preparación más robusta se organizan en una crujía sencilla para ganar
+      aire y abrir posibilidades de redistribución.
+    </p>
+    <img
+      id="atomic10"
+      src="ceviche-atomico/planta-viches-restaurante.jpg"
+      alt=""
+    />
+    <img id="atomic5" src="ceviche-atomico/int-2.jpg" alt="" />
+    <img id="atomic6" src="ceviche-atomico/mesas-redondas.jpg" alt="" />
+    <img id="atomic8" src="ceviche-atomico/pl1.jpg" alt="" />
+    <img id="atomic9" src="ceviche-atomico/pl3.jpg" alt="" />
+    <img id="atomic12" src="ceviche-atomico/planta-viches-taller.jpg" alt="" />
+    <p id="atomic-p3">
+      Equipo: Miguel Ángel Abadía, ANGEL A ANGELE, Pedro Aparicio, Daniel
+      Blanco.
     </p>
 
+    <script>
+      var z = 1;
 
+      $("#atomic1").click(function () {
+        $("#atomic-p1").css("display", "block");
+        z++;
+        $("#atomic-p1").css("z-index", z);
+      });
 
-    
-     <script>
+      $("#atomic-p1").click(function () {
+        $("#atomic7").css("display", "block");
+        z++;
+        $("#atomic7").css("z-index", z);
+      });
+      $("#atomic7").click(function () {
+        $("#atomic13").css("display", "block");
+        z++;
+        $("#atomic13").css("z-index", z);
+      });
+      $("#atomic13").click(function () {
+        $("#atomic2").css("display", "block");
+        z++;
+        $("#atomic2").css("z-index", z);
+      });
 
-var z =1;
-$("#atomic1").click(function() {
-    $("#atomic7").css("display","block");
-     z++;
-    $("#atomic7").css("z-index",z);
+      $("#atomic2").click(function () {
+        $("#atomic15").css("display", "block");
+        z++;
+        $("#atomic15").css("z-index", z);
+      });
+      $("#atomic15").click(function () {
+        $("#atomic3").css("display", "block");
+        z++;
+        $("#atomic3").css("z-index", z);
+      });
+      $("#atomic3").click(function () {
+        $("#atomic14").css("display", "block");
+        z++;
+        $("#atomic14").css("z-index", z);
+      });
 
+      $("#atomic14").click(function () {
+        $("#atomic4").css("display", "block");
+        z++;
+        $("#atomic4").css("z-index", z);
+      });
+      $("#atomic4").click(function () {
+        $("#atomic-p2").css("display", "block");
+        z++;
+        $("#atomic-p2").css("z-index", z);
+      });
+      $("#atomic-p2").click(function () {
+        $("#atomic10").css("display", "block");
+        z++;
+        $("#atomic10").css("z-index", z);
+      });
+      $("#atomic10").click(function () {
+        $("#atomic5").css("display", "block");
+        z++;
+        $("#atomic5").css("z-index", z);
+      });
+      $("#atomic5").click(function () {
+        $("#atomic6").css("display", "block");
+        z++;
+        $("#atomic6").css("z-index", z);
+      });
 
-});
-$("#atomic7").click(function() {
-    $("#atomic13").css("display","block");
-     z++;
-    $("#atomic13").css("z-index",z);
+      $("#atomic6").click(function () {
+        $("#atomic8").css("display", "block");
+        z++;
+        $("#atomic8").css("z-index", z);
+      });
 
+      $("#atomic8").click(function () {
+        $("#atomic12").css("display", "block");
+        z++;
+        $("#atomic12").css("z-index", z);
+      });
 
-});
-$("#atomic13").click(function() {
-    $("#atomic2").css("display","block");
-     z++;
-    $("#atomic2").css("z-index",z);
-
-
-});
-
-$("#atomic2").click(function() {
-    $("#atomic-p1").css("display","block");
-     z++;
-    $("#atomic-p1").css("z-index",z);
-
-
-});
-$("#atomic-p1").click(function() {
-    $("#atomic15").css("display","block");
-     z++;
-    $("#atomic15").css("z-index",z);
-
-
-});
-$("#atomic15").click(function() {
-    $("#atomic3").css("display","block");
-     z++;
-    $("#atomic3").css("z-index",z);
-
-
-});
-$("#atomic3").click(function() {
-    $("#atomic14").css("display","block");
-     z++;
-    $("#atomic14").css("z-index",z);
-
-
-});
-
-$("#atomic14").click(function() {
-    $("#atomic4").css("display","block");
-     z++;
-    $("#atomic4").css("z-index",z);
-
-
-});
-$("#atomic4").click(function() {
-    $("#atomic-p2").css("display","block");
-     z++;
-    $("#atomic-p2").css("z-index",z);
-
-
-});
-$("#atomic-p2").click(function() {
-    $("#atomic10").css("display","block");
-     z++;
-    $("#atomic10").css("z-index",z);
-
-
-});
-$("#atomic10").click(function() {
-    $("#atomic5").css("display","block");
-     z++;
-    $("#atomic5").css("z-index",z);
-
-
-});
-$("#atomic5").click(function() {
-    $("#atomic6").css("display","block");
-     z++;
-    $("#atomic6").css("z-index",z);
-
-
-});
-
-$("#atomic6").click(function() {
-    $("#atomic8").css("display","block");
-     z++;
-    $("#atomic8").css("z-index",z);
-
-
-});
-
-$("#atomic8").click(function() {
-    $("#atomic12").css("display","block");
-     z++;
-    $("#atomic12").css("z-index",z);
-
-
-});
-
-$("#atomic12").click(function() {
-    $("#atomic-p3").css("display","block");
-     z++;
-    $("#atomic-p3").css("z-index",z);
-});
-$("#atomic-p3").click(function() {
-  
-     z++;
-    $("#atomic1").css("z-index",z);
-});
-
-
-
-     </script>
-</body> 
+      $("#atomic12").click(function () {
+        $("#atomic-p3").css("display", "block");
+        z++;
+        $("#atomic-p3").css("z-index", z);
+      });
+      $("#atomic-p3").click(function () {
+        z++;
+        $("#atomic1").css("z-index", z);
+      });
+    </script>
+  </body>
 </html>

@@ -1,6 +1,6 @@
 // Fondos1!
   $(document).ready(function(){
-  var classCycle=[' aplo1',' aplo2','001', '002'];
+  var classCycle=[' aplo1',' aplo2','aplo14', 'aplo15', 'aplo29', 'aplo30','aplo43'];
 
   var randomNumber = Math.floor(Math.random() * classCycle.length);
   var classToAdd = classCycle[randomNumber];
@@ -10,7 +10,7 @@
 });
 
 $(document).ready(function(){
-  var classCycle=[' aplo3', 'aplo4'];
+  var classCycle=[' aplo3', 'aplo4', 'aplo16', 'aplo17', 'aplo31', 'aplo32', 'aplo44'];
 
   var randomNumber = Math.floor(Math.random() * classCycle.length);
   var classToAdd = classCycle[randomNumber];
@@ -20,7 +20,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-  var classCycle=[' aplo5', 'aplo6'];
+  var classCycle=[' aplo5', 'aplo6', 'aplo18', 'aplo19', 'aplo33', 'aplo34','aplo45'];
 
   var randomNumber = Math.floor(Math.random() * classCycle.length);
   var classToAdd = classCycle[randomNumber];
@@ -30,7 +30,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-  var classCycle=[' aplo7', 'aplo8'];
+  var classCycle=[' aplo7', 'aplo8', 'aplo20', 'aplo21', 'aplo35', 'aplo36','aplo46'];
 
   var randomNumber = Math.floor(Math.random() * classCycle.length);
   var classToAdd = classCycle[randomNumber];
@@ -40,7 +40,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-  var classCycle=[' aplo9', 'aplo10'];
+  var classCycle=[' aplo9', 'aplo10', 'aplo22', 'aplo23', 'aplo37', 'aplo38','aplo47'];
 
   var randomNumber = Math.floor(Math.random() * classCycle.length);
   var classToAdd = classCycle[randomNumber];
@@ -50,7 +50,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-  var classCycle=[' aplo11', 'aplo12'];
+  var classCycle=[' aplo11', 'aplo12', 'aplo25', 'aplo26', 'aplo39', 'aplo40'];
 
   var randomNumber = Math.floor(Math.random() * classCycle.length);
   var classToAdd = classCycle[randomNumber];
@@ -60,7 +60,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-  var classCycle=[' aplo13', 'aplo14'];
+  var classCycle=[' aplo13', 'aplo14', 'aplo27', 'aplo28', 'aplo41', 'aplo42'];
 
   var randomNumber = Math.floor(Math.random() * classCycle.length);
   var classToAdd = classCycle[randomNumber];

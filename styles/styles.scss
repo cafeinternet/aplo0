@@ -1,4 +1,4 @@
-@import 'grid', 'background';
+@import 'archivo' ,'grid', 'background';
 
 @import url('https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap');
 
@@ -7,32 +7,73 @@
      src: url("./typos/TruenoRg.otf") format("opentype");
 }
 
+.text-color{
+  background-color : #376c7b;
+  color:aliceblue;
+  background-color: #a7ccd4;
+  color:aliceblue; 
+  background-color: #2b440e;
+  color:aliceblue;
+  background-color: #c6af7b;
+  color:aliceblue;
+  background-color: #8e966d;
+  color:aliceblue;
+  background-color: #ffec18;
+  color:coral;
 
+}
 .menu1{
   font-size: 88px;
   font-family: 'Shippori Antique', sans-serif;
 }
+@media (max-width: 600px){
+  .menu1{
+    font-size: 60px;}
+}
 
-a{
+.a-black{
   
-  color: whitesmoke;
+  color: rgba(0, 0, 0, 0.701);
 }
-a:link {
+.a-black:link {
   text-decoration: none;
 }
 
-a:visited {
+.a-black:visited {
   text-decoration: none;
 }
 
-a:hover {
- 
+.a-black:hover {
+  color: blue;
   text-decoration: none;
 }
 
-a:active {
+.a-black:active {
   text-decoration: none;
 }
+
+.a-white{
+  
+  color: rgba(0, 0, 0, 0.701);
+}
+.a-white:link {
+  text-decoration: none;
+}
+
+.a-white:visited {
+  text-decoration: none;
+}
+
+.a-white:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+.a-white:active {
+  text-decoration: none;
+}
+
+
 
 .menu-a{
   // mix-blend-mode: difference;
@@ -63,7 +104,7 @@ a:active {
   
   &:after{
     content: 'RCHIVO';
-   
+    color:rgba(0, 0, 0, 0.701);
     writing-mode: vertical-rl;
     text-orientation: upright;
     position: absolute;
@@ -73,7 +114,19 @@ a:active {
   }
 }
 
-
+@media (max-width: 600px){
+  .menu-aarchivo{
+        &:after{
+      content: 'RCHIVO';
+     
+      writing-mode: vertical-rl;
+      text-orientation: upright;
+      position: absolute;
+      top: 55px;
+      left: -10px;
+    }
+  }
+}
 
 .menu-p{
   position: fixed;
@@ -100,13 +153,15 @@ a:active {
   right: 24px;
   z-index: 99999;
   text-decoration: none; /* no underline */
-
+  color:rgba(0, 0, 0, 0.701);
+  animation: rotacion-0 5s linear 2s infinite alternate;
 }
 
-video{
-  width: 100%;
-  margin: 0 0 0 0 ;
+@keyframes rotacion-0 {
+  from {transform: rotateY(0deg);}
+  to {transform: rotateY(360deg);}
 }
+
 
 
 
