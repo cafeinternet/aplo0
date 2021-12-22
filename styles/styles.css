@@ -5,6 +5,13 @@
   padding-top: 1%;
   padding-left: 24%; }
 
+.columna-personas {
+  font-size: calc(0.75em + 1vmin);
+  font-family: "trueno";
+  padding-top: 1%;
+  padding-left: 24%;
+  width: 70%; }
+
 .caja-columna {
   padding: 1%; }
 
@@ -592,6 +599,18 @@
   -webkit-background-size: cover;
   -moz-background-size: cover; }
 
+.botones {
+  display: flex;
+  position: absolute;
+  justify-content: space-between; }
+
+a .boton-1 {
+  width: 100%; }
+
+.items1 {
+  padding: 5%;
+  width: 100%; }
+
 @font-face {
   font-family: 'trueno';
   src: url("./typos/TruenoRg.otf") format("opentype"); }
@@ -633,7 +652,7 @@
   text-decoration: none; }
 
 .a-white {
-  color: rgba(0, 0, 0, 0.701); }
+  color: white; }
 
 .a-white:link {
   text-decoration: none; }
@@ -675,6 +694,22 @@
     top: 80px;
     left: -15px; }
 
+.menu-personas {
+  position: fixed;
+  z-index: 99999;
+  transition: 0.8s;
+  text-decoration: none;
+  /* no underline */ }
+  .menu-personas:after {
+    content: 'ERSONAS';
+    color: rgba(0, 0, 0, 0.701);
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    position: absolute;
+    letter-spacing: -5px;
+    top: 80px;
+    right: 15px; }
+
 @media (max-width: 600px) {
   .menu-aarchivo:after {
     content: 'RCHIVO';
@@ -706,7 +741,6 @@
   z-index: 99999;
   text-decoration: none;
   /* no underline */
-  color: rgba(0, 0, 0, 0.701);
   animation: rotacion-0 5s linear 2s infinite alternate; }
 
 @keyframes rotacion-0 {
@@ -792,7 +826,7 @@ section {
   align-items: center;
   background: #111;
   transition: 0.5s;
-  z-index: 2; }
+  z-index: -9999; }
 
 .showcase video {
   position: absolute;
