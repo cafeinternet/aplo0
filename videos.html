@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container">
+        <section class="showcase">
+      
+          <video id="video1"src="/styles/fondos/009.mp4" muted loop autoplay></video>
+          
+        </section>
+        <!-- <div class="c3-item1"><a href=""><img src="./botones/toiletgarden.png" alt=""></a></div>
+          <div class="c3-item2"><a href=""><img src="./botones/00_fragmento_mangle.png" alt=""></a></div>
+          <div class="c3-item3"><a href=""> <img src="./botones/forestcabinet-2.jpg" alt=""></a></div>  -->
+         </div>
+  
+
+            
+        <script>
+              $(document).ready(function(){
+  var classCycle=[
+    '<video src="/styles/fondos/001.mp4" muted loop autoplay></video>',
+    '<video src="/styles/fondos/002.mp4" muted loop autoplay></video>',
+    '<video src="/styles/fondos/003.mp4" muted loop autoplay></video>',
+    '<video src="/styles/fondos/004.mp4" muted loop autoplay></video>',
+    '<video src="/styles/fondos/005.mp4" muted loop autoplay></video>',
+    '<video src="/styles/fondos/006.mp4" muted loop autoplay></video>'];
+
+  var randomNumber = Math.floor(Math.random() * classCycle.length);
+  var classToAdd = classCycle[randomNumber];
+  
+  $('.showcase').replaceWith(classToAdd);
+
+});
+
+
+
+      </script>
+       
+       
+
+</body>
+</html>
